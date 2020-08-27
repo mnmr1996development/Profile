@@ -31,7 +31,24 @@ ul {
       width: 100%;
       position: fixed;
   }
+body{
+  text-align: center;
+}
   
-  #profile {
+  #profile-pic {
     height: 40rem
+  }
+
+  #profile{
+    margin: auto;
+    padding-top: 10px;
+  }
+
+  .links {
+    float: left;
+    width: 33.33%;
+  }
+
+  img {
+    height: 150px;
   }
