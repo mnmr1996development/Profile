@@ -16,9 +16,10 @@
           <li>
             <a href="#">Projects</a>
             <ul>
-              <li><a href="#java_based">Java Based</a></li>
-              <li><a href="#web_based">Web Based</a></li>
-              <li><a href="#python_based">Python Based</a></li>
+              <li><a href="#java_based">Java Projects</a></li>
+              <li><a href="#web_based">Web Based Projects</a></li>
+              <li><a href="#python_based">Python Projects</a></li>
+              <li><a href="#assembly_based">Assembly Projects</a></li>
             </ul>
           </li>
           <li></li>
@@ -32,11 +33,16 @@
           <div id="AI_simplegames">
             <h3 class="project_name">AI in simple Game</h3>
             <h4>Project Description:</h4>
-            <p>The purpose of this project was to have a</p>
+            <p>The purpose of this project was to demonstrate machine learning practices commonly used today. My college colleauge and I designed a video game similar to asteroids where the user would have to avoid all the incoming rocks and had a neural network figure out how to play the game from scratch.</p>
+            <p>Disclaimer: traditionally this would train a lot faster and a lot better but this was done using a windows integrated graphics laptop instead of a tradition GPU, this was the maximum runnable settings before the program got way too slow</p>
+            <p>The First 6 iterations demonstartes when the neural network was moving at random</p>
+            <p>The 104th iteration demonstartes when it started picking up some patterns</p>
+            <p>AT the 643rd generation (timestamp 1:47) the best ship in the generation is able to survive for over 3 minutes</p>
             <h4>Video Demo:</h4>
-            <video controls>
-              <source src="../resources/AI.mp4" type="video/mp4" > </source>
+            <video id="AI" controls>
+              <source id="AIsource" src="../resources/AI.mp4" type="video/mp4" > </source>
             </video>
+            <a href="https://github.com/mnmr1996development/SpaceGameAI"><h3>Link to the Code</h3></a>
           </div>
         </li>
         <li>
@@ -92,7 +98,7 @@
             <p>The purpose of this project was to have a</p>
             <h4>Video Demo:</h4>
             <video controls>
-              <source src="../resources/pascal.mp4" type="video/mp4" > </source>
+              <source src="../resources/pascal.mp4?t=90" type="video/mp4" > </source>
             </video>
             <h3><a href="https://github.com/mnmr1996development/PascalCompiler/tree/master/src">Check Out the Code</a></h3>
           </div>
@@ -101,5 +107,21 @@
         </li>
       </ul>
     </div>
+    <div>
+    <div class="meat">
+      
+    </div>
+    </div>
   </body>
+
+  <script>
+   var firstlink = document.getElementByTagName('a')[0];
+firstlink.addEventListener("click", function (event) {
+    event.preventDefault();
+    myvideo.currentTime = 7;
+    myvideo.play();
+}, false);
+
+    
+  </script>
 </html>

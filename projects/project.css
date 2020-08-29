@@ -71,7 +71,6 @@ nav ul li ul li a:hover{
 * {
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 body{
@@ -84,11 +83,10 @@ hr {
 }
 
 .meat {
-    width: 80%;
+    width: 75%;
     background-color: darkred;
     border-color: black;
     border-style: solid;
-    margin: auto;
 }
 
 video {
@@ -100,3 +98,7 @@ video {
     color: white
 }
 a :visited{ color: white }
+
+p {
+    padding-bottom: 10px;
+}
