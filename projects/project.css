@@ -17,6 +17,11 @@ h2 {
 h3 {
     font-family: 'Lobster', cursive;
     padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+h4 {
+    padding-bottom: 15px;
 }
 
 nav {
@@ -88,6 +93,7 @@ hr {
     background-color: darkred;
     border-color: black;
     border-style: solid;
+    margin: auto;
 }
 
 video {
@@ -108,9 +114,14 @@ p {
     padding-bottom: 10px;
 }
 
-
-.meat2 {
-    width: 20%;
-    grid-column-start: 9;
-    grid-column-end: 10;
+#projectList li{
+    padding: 20px 00px;
 }
+
+#pascal li {
+    padding: 5px 00px;
+}
+
+
+.meat a:visited {color:darkblue}
+.meat a {color:darkblue}

@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="project.css" />
   </head>
   <body>
-    <!-- <div class="nav">
+    <div class="nav">
       <nav class="navigationbar">
         <ul>
           <li>
@@ -22,51 +22,69 @@
               <li><a href="#assembly_based">Assembly Projects</a></li>
             </ul>
           </li>
-          <li></li>
+          
         </ul>
       </nav>
-    </div> -->
+    </div>
 
     
 
   <div class="idkwhattocallyou"> 
     <div class="meat">
-      <ul>
+      <ul id="projectList">
         <h2 id="java_based">Java Based Projects</h2>
         <li>
           <div id="AI_simplegames">
-            <h3 class="project_name">AI in simple Game</h3>
+            <h3 class="project_name">Machine learning in a simple Game</h3>
             <h4>Project Description:</h4>
             <p>The purpose of this project was to demonstrate machine learning practices commonly used today. My college colleauge and I designed a video game similar to asteroids where the user would have to avoid all the incoming rocks and had a neural network figure out how to play the game from scratch.</p>
-            <p>Disclaimer: traditionally this would train a lot faster and a lot better but this was done using a windows integrated graphics laptop instead of a tradition GPU, this was the maximum runnable settings before the program got way too slow</p>
             <p>The First 6 iterations demonstartes when the neural network was moving at random</p>
             <p>The 104th iteration demonstartes when it started picking up some patterns</p>
             <p>AT the 643rd generation (timestamp 1:47) the best ship in the generation is able to survive for over 3 minutes</p>
             <h4>Video Demo:</h4>
             <video id="AI" controls>
-              <source id="AIsource" src="../resources/AI.mp4" type="video/mp4" > </source>
+              <source id="AIsource" src="../resources/AI.mp4#t=107" type="video/mp4" > </source>
             </video>
+            <p>Disclaimer: traditionally this would train a lot faster and a lot better but this was done using a windows integrated graphics laptop instead of a tradition GPU, this was the maximum runnable settings of 300 ships in a generation before the program got way too slow</p>
             <a href="https://github.com/mnmr1996development/SpaceGameAI"><h3>Link to the Code</h3></a>
           </div>
         </li>
         <li>
-          <div>
+          <div id="Pascal Compiler">
             <h3 class="project_name">Pascal Compiler Written in Java</h3>
             <h4>Project Description:</h4>
-            <p>The purpose of this project was to have a</p>
+            <p>Compilers are one of the most underappreciated parts of modern programming that we have,
+               they scan the code for keywords, tokenize everything and store important information like variables. 
+               In the project I used the java programming language to write some of the basic functionalites of a pascal
+              compiler. down below is a video showing off most of the functionalites that are listed</p>
+            <h4>Functionalites that work:</h4>
+            <ul id="pascal">
+              <li>basic arithmethic</li>
+              <li>procedures</li>
+              <li>arrays</li>
+              <li>case statements</li>
+              <li>while statements</li>
+              <li>if statements</li>
+              <li>for loops</li>
+              <li>labels</li>
+              <li>goto statements</li>
+              <li>assignments</li>
+              <li>declerations</li>
+              <li>repeat</li>
+              <li>writing functions to output(writeln())</li>
+            </ul>
             <h4>Video Demo:</h4>
             <video controls>
-              <source src="../resources/pascal.mp4" type="video/mp4" > </source>
+              <source src="../resources/pascal.mp4#t=90" type="video/mp4" > </source>
             </video>
             <h3><a href="https://github.com/mnmr1996development/PascalCompiler/tree/master/src">Check Out the Code</a></h3>
           </div>
         </li>
         <li>
-          <div>
-            <h3 class="project_name">Pascal Compiler Written in Java</h3>
+          <div id="Addressbook">
+            <h3 class="project_name">Address Book Application</h3>
             <h4>Project Description:</h4>
-            <p>The purpose of this project was to have a</p>
-            <p>The backend to this project was lost when I switched laptops but the front-end UI code is still up</p>
+            <p>The purpose of this project was to have a front end java application connected to a backend server, unfortanetly the configuration for the backend got lost when I switched laptops but the code connecting the two still works along with the front-end</p>
             <a href="https://github.com/mnmr1996development/JavaAddressbook/tree/master/src"><img src="../resources/Addressbook.png" alt="Addressbook written in Java"></a>
             <h3><a href="https://github.com/mnmr1996development/PascalCompiler/tree/master/src">Check Out the Code</a></h3>
           </div>
@@ -74,21 +92,28 @@
         <hr />
         <h2 id="web_based">Web based Projects</h2>
         <li>
-          <div>
-            <h3 class="project_name">Pascal Compiler Written in Java</h3>
-            <h3>Project Description:</h3>
-            <p>The purpose of this project was to have a</p>
-            <h3>Video Demo</h3>
-            <video src=""></video>
+          <div id="battle_arena">
+            <h3 class="project_name">4 Player battle areana(using react)</h3>
+            <h4>Project Description:</h4>
+            <p>The purpose of this project was to use react and connect it with the
+              phaser 3 engine to develop a multiplayer game. We worked in a group of 5 using the 
+              agile scrum method of weekly meetings and constant code or markup output by each member in 
+              the group.
+            </p>
+            <p>Currrently the game is still live so instead of a video link down below is the link to the game(only playable with a keyboard)</p>
+            <h4>Game:</h4>
+            <a href="https://dev.d39k5usv8gv0fp.amplifyapp.com/"><img src="" alt=""></a>
+            
             <h3><a href="https://dev.d39k5usv8gv0fp.amplifyapp.com/">Play The Game</a></h3>
+            <h3><a href="https://dev.d39k5usv8gv0fp.amplifyapp.com/">Link to the code</a></h3>
           </div>
         </li>
         <li>
-          <div>
-            <h3 class="project_name">Pascal Compiler Written in Java</h3>
-            <h3>Project Description:</h3>
+          <div id="crime_visual">
+            <h3 class="project_name">NYC Crime Visualiztion</h3>
+            <h4>Project Description:</h4>
             <p>The purpose of this project was to have a</p>
-            <h3>Video Demo</h3>
+            <h4>Video Demo</h4>
             <video src=""></video>
           </div>
         </li>
@@ -112,7 +137,7 @@
             <p>The purpose of this project was to have a</p>
             <h4>Video Demo:</h4>
             <video controls>
-              <source src="../resources/pascal.mp4?t=90" type="video/mp4" > </source>
+              <source src="../resources/pascal.mp4#t=90" type="video/mp4" > </source>
             </video>
             <h3><a href="https://github.com/mnmr1996development/PascalCompiler/tree/master/src">Check Out the Code</a></h3>
           </div>
@@ -132,7 +157,7 @@
           </div>
         </li>
         <li>
-          <div>
+          <div id="GAME19">
             <h3 class="project_name">Game 19</h3>
             <h4>Project Description:</h4>
             <p>The purpose of this project was to have a</p>
@@ -145,26 +170,6 @@
         </li>
       </ul>
     </div>
-
-  
-    <div class="meat2">
-      <h2>Contact Information</h2>
-      <h4>Email: mnmr1996development@gmail.com</h4>
-      <h4>Number: 914-500-9496</h4>
-      <h4>github: <a href="https://github.com/mnmr1996development">https://github.com/mnmr1996development</a></h4>
-  
-    </div>
   </div>
 </body>
-
-  <script>
-   var firstlink = document.getElementByTagName('a')[0];
-firstlink.addEventListener("click", function (event) {
-    event.preventDefault();
-    myvideo.currentTime = 7;
-    myvideo.play();
-}, false);
-
-    
-  </script>
 </html>
