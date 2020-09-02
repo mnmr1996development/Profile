@@ -125,3 +125,7 @@ p {
 
 .meat a:visited {color:darkblue}
 .meat a {color:darkblue}
+
+.projectdescription{
+    text-indent: 25px;
+}
