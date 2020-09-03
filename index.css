@@ -22,7 +22,7 @@ ul {
   }
   
   body {
-    background-image: url(../resources/background.jpg);
+    background-image: url(./resources/background.jpg);
     background-size: cover;
   }
   
@@ -31,9 +31,10 @@ ul {
       width: 100%;
       position: fixed;
   }
-body{
+  
+  body{
   text-align: center;
-}
+  }
   
   #profile-pic {
     height: 40rem
