@@ -1,195 +1,126 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project</title>
-    <link rel="stylesheet" type="text/css" href="project.css" />
-  </head>
-  <body>
-    <div class="nav">
-      <nav class="navigationbar">
-        <ul>
-          <li>
-            <a href="../index.html"><h1>Michael Richards Profile</h1></a>
-          </li>
-          <li>
-            <a href="#">Projects &#187</a>
-            <ul>
-              <li class="Javapicker"> <a href="#">Java Projects</a> </li>
-              <li class="Webpicker"><a href="#">Web Based Projects</a></li>
-              <li class="Pythonpicker"><a href="#">Python Projects</a></li>
-              <li class="Assemblypicker"><a href="#">Assembly Projects</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-    </div>
+<!DOCTYPE HTML>
 
-  <div class="idkwhattocallyou"> 
-    <div class="meat">
-      <ul id="projectList">
-        <h2 id="java_based">Java Based Projects</h2>
-        <li>
-          <div id="AI_simplegames">
-            <h3 class="project_name">Machine learning in a simple Game</h3>
-            <h4>Project Description:</h4>
-            <p class="projectdescription">The purpose of this project was to demonstrate machine learning practices commonly used today. My college colleauge and I designed a video game similar to asteroids where the user would have to avoid all the incoming rocks and had a neural network figure out how to play the game from scratch.</p>
-            <p>The First 6 iterations demonstartes when the neural network was moving at random</p>
-            <p>The 104th iteration demonstartes when it started picking up some patterns</p>
-            <p>AT the 643rd generation (timestamp 1:47) the best ship in the generation is able to survive for over 3 minutes</p>
-            <h4>Video Demo:</h4>
-            <video id="AI" controls>
-              <source id="AIsource" src="../resources/AI.mp4#t=107" type="video/mp4" > </source>
-            </video>
-            <p>Disclaimer: traditionally this would train a lot faster and a lot better but this was done using a windows integrated graphics laptop instead of a tradition GPU, this was the maximum runnable settings of 300 ships in a generation before the program got way too slow</p>
-            <a href="https://github.com/mnmr1996development/SpaceGameAI"><h3>Link to the Code</h3></a>
-          </div>
-        </li>
-        <li>
-          <div id="Pascal_Compiler">
-            <h3 class="project_name">Pascal Compiler Written in Java</h3>
-            <h4>Project Description:</h4>
-            <p class="projectdescription">Compilers are one of the most underappreciated parts of modern programming that we have,
-               they scan the code for keywords, tokenize everything and store important information like variables. 
-               In the project I used the java programming language to write some of the basic functionalites of a pascal
-              compiler. down below is a video showing off most of the functionalites that are listed</p>
-            <h4>Functionalites that work:</h4>
-            <ul id="pascal">
-              <li>basic arithmethic</li>
-              <li>procedures</li>
-              <li>arrays</li>
-              <li>case statements</li>
-              <li>while statements</li>
-              <li>if statements</li>
-              <li>for loops</li>
-              <li>labels</li>
-              <li>goto statements</li>
-              <li>assignments</li>
-              <li>declerations</li>
-              <li>repeat</li>
-              <li>writing functions to output(writeln())</li>
-            </ul>
-            <h4>Video Demo:</h4>
-            <video controls>
-              <source src="../resources/pascal.mp4#t=115" type="video/mp4" > </source>
-            </video>
-            <h3><a href="https://github.com/mnmr1996development/PascalCompiler/tree/master/src">Check Out the Code</a></h3>
-          </div>
-        </li>
-        <li>
-          <div id="Addressbook">
-            <h3 class="project_name">Address Book Application</h3>
-            <h4>Project Description:</h4>
-            <p class="projectdescription">The purpose of this project was to have a front end java application connected to a backend
-               server, unfortanetly the configuration for the backend got lost when I switched laptops but the code connecting the two
-                still works along with the front-end</p>
-            <a href="https://github.com/mnmr1996development/JavaAddressbook/tree/master/src"><img src="../resources/Addressbook.png" alt="Addressbook written in Java"></a>
-            <h3><a href="https://github.com/mnmr1996development/PascalCompiler/tree/master/src">Check Out the Code</a></h3>
-          </div>
-        </li>
-        <hr />
-        <h2 id="web_based">Web based Projects</h2>
-        <li>
-          <div id="battle_arena">
-            <h3 class="project_name">4 Player battle areana(using react)</h3>
-            <h4>Project Description:</h4>
-            <p class="projectdescription">The purpose of this project was to use react and connect it with the
-              phaser 3 engine to develop a multiplayer game. We worked in a group of 5 using the 
-              agile scrum method of weekly meetings and constant code or markup output by each member in 
-              the group.
-            </p>
-            <p>Currrently the game is still live so instead of a video link down below is the link to the game(only playable with a keyboard)</p>
-            <h4>Game:</h4>
-            <a href="https://dev.d39k5usv8gv0fp.amplifyapp.com/"><img src="../resources/reactapp.jpg" alt=""></a>
-            
-            <h3><a href="https://dev.d39k5usv8gv0fp.amplifyapp.com/">Play The Game</a></h3>
-            <h3><a href="https://github.com/mnmr1996development/battlearenamultiplayer">Link to the code</a></h3>
-          </div>
-        </li>
-        <li>
-          <div id="crime_visual">
-            <h3 class="project_name">NYC Crime Visualiztion</h3>
-            <h4>Project Description:</h4>
-            <p class="projectdescription">In this project, we looked at the share of crimes of each district in the city of New York. New York is a big and a very diverse
-               city in the united states. Crime is something troubling for everyday New Yorkers. To make police deployment more effective in crime 
-               prevention, pinpointing the most crime riddled area is helpful. Therefore, in this project we analyze different crimes in the city with
-                the corresponding areas where they are mostly committed. We made available to the user each crimes in a simple and clear visualization. 
-                We have three different type of visualizations. We are interpreting the data on a map, in a scatter plot, and in a bubble chart.The user
-                 will be able to spot the predominant type of crime in a specific district.
-            </p>
-            <h4>Video Demo:</h4>
-            <video controls>
-              <source src="../resources/crimes.mp4#t=5">
-            </video>
-            <a href="https://github.com/mnmr1996development/CrimeVisualizations">
-              <h3>Check out the code</h3>
-            </a>
-          </div>
-        </li>
-        <hr />
-        <h2 id="python_based">Python Based Project</h2>
-        <!-- <li>
-          <div id="AI_simplegames">
-            <h3 class="project_name">AI in simple Game</h3>
-            <h4>Project Description:</h4>
-            <p>The purpose of this project was to have a</p>
-            <h4>Video Demo:</h4>
-            <video controls>
-              <source src="../resources/AI.mp4" type="video/mp4" > </source>
-            </video>
-          </div>
-        </li> -->
-       <!-- <h2>Trying to find some of my bigger python projects right now but some have been lost</h2> -->
-        <li>
-          <div>
-            <h3 class="project_name">Connect4</h3>
-            <h4>Project Description:</h4>
-            <p class="projectdescription">This was one of the first medium sized projects i've done in python
-              the purpose of this project was just to recreate the game of connect 4 using python
-            </p>
-            <h4>Video Demo:</h4>
-            <video controls>
-              <source src="../resources/connect4.mp4" type="video/mp4" > </source>
-            </video>
-            <h3><a href="https://github.com/mnmr1996development/PascalCompiler/tree/master/src">Check Out the Code</a></h3>
-          </div>
-        </li>
-        <hr />
-        <h2 id="assembly_based">Assembly Based Projects</h2>
-        <li>
-          <div id="Minesweeper">
-            <h3 class="project_name">Minesweeper</h3>
-            <h4>Project Description:</h4>
-            <p class="projectdescription">The purpose of this project was to recreate the minesweeper game strictly using
-               the x86 Assembly language. I had to run it using DOSBOX and downloading TASM on
-                my windows parition of my laptop but this was written all using the notepad++ text editor from scratch</p>
-            <h4>Video Demo:</h4>
-            <video controls>
-              <source src="../resources/MINESWEEPER.mp4" type="video/mp4" > </source>
-            </video>
-            <h3><a href="https://github.com/mnmr1996development/Assemblyminesweep">Check Out the Code</a></h3>
-          </div>
-        </li>
-        <li>
-          <div id="GAME19">
-            <h3 class="project_name">Game 19</h3>
-            <h4>Project Description:</h4>
-            <p class="projectdescription">Similar to the program above the purpose of this game was to recreate the game of 15 puzzle 
-              but I added another row to it so I ended up calling it GAME 19 but the purpose of the game is to
-              get all the numbers in order in as little moves as possible. there's a counter to record moves, a shuffle button,
-              a button to see the solved bored, arrow key movement buttons, and a button to exit the game
-            </p>
-            <h4>Video Demo:</h4>
-            <video controls>
-              <source src="../resources/GAME19.mp4" type="video/mp4" > </source>
-            </video>
-            <h3><a href="https://github.com/mnmr1996development/Game19">Check Out the Code</a></h3>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</body>
-<script src="./projects.js"></script>
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="shortcut icon" href="../resources/siteicon.ico"/>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="../index.html" class="image avatar"><img src="../resources/profile_image.jpg" alt="" /></a>
+					<h1><strong>Hi, my name is  <a href="../index.html">Michael</a></strong><br />
+					These are some of my favorite personal projects <br />
+					I've worked on
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One 
+					<section id="one">
+						<header class="major">
+							<h2>Ipsum lorem dolor aliquam ante commodo<br />
+							magna sed accumsan arcu neque.</h2>
+						</header>
+						<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+
+					</section>
+				-->
+				<!-- Two -->
+					<section id="two">
+						<h2>Projects</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="../resources/pascalcompiler.png" class="image fit thumb"><img src="../resources/pascalcompiler.png" alt="" /></a>
+								<h3>Pascal Complier written in Java</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                                <ul class="actions">
+                                    <li><a href="https://github.com/mnmr1996development/PascalCompiler/tree/master/src" class="button">Check Out Code</a></li>
+                                    <li><a href="../miketube/miketube.html" class="button">Watch Video Demo</a></li>
+						        </ul>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="../resources/AISpaceGame.png" class="image fit thumb"><img src="../resources/AISpaceGame.png" alt="" /></a>
+								<h3>Machine Learning in Games</h3>
+                                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                                <ul class="actions">
+                                    <li><a href="https://github.com/mnmr1996development/SpaceGameAI" class="button">Check Out Code</a></li>
+                                    <li><a href="https://dev.d39k5usv8gv0fp.amplifyapp.com/" class="button">Play The Game</a></li>
+						        </ul>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="../resources/reactapp.jpg" class="image fit thumb"><img src="../resources/reactapp.jpg" alt="" /></a>
+								<h3>4 Player battle areana(using react)</h3>
+                                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                                <ul class="actions">
+                                    <li><a href="https://github.com/mnmr1996development/PascalCompiler/tree/master/src" class="button">Check Out Code</a></li>
+                                    <li><a href="https://github.com/mnmr1996development/PascalCompiler/tree/master/src" class="button">Watch Video Demo</a></li>
+						        </ul>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
+								<h3>NYC Crime Visualiztion</h3>
+                                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                                <ul class="actions">
+                                    <li><a href="https://github.com/mnmr1996development/PascalCompiler/tree/master/src" class="button">Check Out Code</a></li>
+                                    <li><a href="https://github.com/mnmr1996development/PascalCompiler/tree/master/src" class="button">Watch Video Demo</a></li>
+						        </ul>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="../resources/Addressbook.png" class="image fit thumb"><img src="../resources/Addressbook.png" alt="" /></a>
+								<h3>Address Book Application</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<ul class="actions">
+								<li><a href="https://github.com/mnmr1996development/PascalCompiler/tree/master/src" class="button">Check Out Code</a></li>
+								</ul>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
+								<h3>Python Connect 4</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+														<article class="col-6 col-12-xsmall work-item">
+								<a href="../resources/minesweeper.png" class="image fit thumb"><img src="../resources/minesweeper.png" alt="" /></a>
+								<h3>Minesweeper in Assembly</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="../resources/game19.png" class="image fit thumb"><img src="../resources/game19.png" alt="" /></a>
+								<h3>Game 19 in Assembly</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+						</div>
+						<ul class="actions">
+							<li><a href="https://github.com/mnmr1996development" class="button">Full Github</a></li>
+						</ul>
+					</section>
+			</div>
+
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="#" class="fa fa-envelope"><span class="label"> Email</span></a></li>
+						<li><a href="https://github.com/mnmr1996development" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/michael-richards-475a67157/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="../resume/resume.html" class="far fa-file-pdf"><span class="label"> Resumé</span></a></li>
+					</ul>
+				</div>
+			</footer>
+
+		
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
 </html>
