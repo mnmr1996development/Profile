@@ -2,6 +2,24 @@
     height: 100vh;
 }
 
-video {
+video, img {
     width: 80%;
+}
+
+nav{
+    background: brown;
+    height: 10vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #eb5424;
+}
+
+ul {
+    list-style: none;
 }
