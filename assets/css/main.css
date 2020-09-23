@@ -1,11 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
-/*
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -83,7 +77,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -132,10 +126,11 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		color: white;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #eb5424;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -241,7 +236,6 @@ input, select, textarea {
 		text-align: right;
 	}
 
-/* Container */
 
 	.container {
 		margin: 0 auto;
@@ -1765,7 +1759,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #b2b2b2;
+		color: white;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -1801,7 +1795,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #787878;
+		color: #f8f0f0;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 400;
@@ -2446,7 +2440,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: white !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2591,9 +2585,9 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: black;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2643,41 +2637,6 @@ input, select, textarea {
 			width: 6.25em;
 		}
 
-/* Footer */
-
-	#footer .icons {
-		margin: 1em 0 0 0;
-	}
-
-		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
-		}
-
-	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
-		font-size: 0.8em;
-		list-style: none;
-		margin: 1em 0 0 0;
-		padding: 0;
-	}
-
-		#footer .copyright li {
-			border-left: solid 1px rgba(255, 255, 255, 0.25);
-			display: inline-block;
-			line-height: 1em;
-			margin-left: 0.75em;
-			padding-left: 0.75em;
-		}
-
-			#footer .copyright li:first-child {
-				border-left: 0;
-				margin-left: 0;
-				padding-left: 0;
-			}
-
-			#footer .copyright li a {
-				color: inherit;
-			}
 
 /* Main */
 
@@ -2998,7 +2957,7 @@ input, select, textarea {
 
 			#header {
 				padding: 6em 3em 3em 3em;
-				width: 30%;
+				width: 25%;
 			}
 
 				#header h1 {
@@ -3012,16 +2971,6 @@ input, select, textarea {
 				#header > .inner {
 					margin-bottom: 0;
 				}
-
-		/* Footer */
-
-			#footer .copyright li {
-				border-left-width: 0;
-				display: block;
-				line-height: 2.25em;
-				margin-left: 0;
-				padding-left: 0;
-			}
 
 		/* Main */
 
@@ -3073,38 +3022,7 @@ input, select, textarea {
 						display: inline;
 					}
 
-		/* Footer */
 
-			#footer {
-				background-attachment: scroll;
-				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("images/bg.jpg");
-				background-position: top left,						bottom center;
-				background-repeat: repeat,							no-repeat;
-				background-size: auto,							cover;
-				bottom: auto;
-				left: auto;
-				padding: 4em 4em 6em 4em;
-				position: relative;
-				text-align: center;
-				width: 100%;
-			}
-
-				#footer .icons {
-					margin: 0 0 1em 0;
-				}
-
-				#footer .copyright {
-					margin: 0 0 1em 0;
-				}
-
-					#footer .copyright li {
-						border-left-width: 1px;
-						display: inline-block;
-						line-height: 1em;
-						margin-left: 0.75em;
-						padding-left: 0.75em;
-					}
 
 		/* Main */
 
@@ -3164,11 +3082,6 @@ input, select, textarea {
 					font-size: 1.35em;
 				}
 
-		/* Footer */
-
-			#footer {
-				padding: 2.25em 1.5em;
-			}
 
 		/* Main */
 
@@ -3207,15 +3120,5 @@ input, select, textarea {
 				#header h1 br {
 					display: none;
 				}
-
-		/* Footer */
-
-			#footer .copyright li {
-				border-left-width: 0;
-				display: block;
-				line-height: 2.25em;
-				margin-left: 0;
-				padding-left: 0;
-			}
 
 	}

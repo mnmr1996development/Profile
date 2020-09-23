@@ -1,9 +1,9 @@
 
 body {
-  background: #ffffff;
+  background: #000000;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
-  color: #606060;
+  color: #ffffff;
   position: relative;
 }
 html, body {
@@ -18,7 +18,7 @@ hr {
   margin-bottom: 40px;
 }
 .title {
-  color: #303030;
+  color: #ffffff;
   font-size: 60px;
   padding-bottom: 40px;
   text-transform: uppercase;
@@ -27,7 +27,7 @@ hr {
 /* START NAVIGATION */
 .sticky-navigation { opacity: 0; }
 .navbar-default {
-  background: #fff;
+  background: #000;
   border: none;
   -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
           box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
@@ -35,14 +35,14 @@ hr {
   padding: 0;
 }
 .navbar-default .navbar-brand {
-  color: #212227;
+  color: #f2f2f2;
   font-weight: bold;
   font-size: 30px;
   line-height: 45px;
   padding: 10px 0 0 12px;
 }
 .navbar-default .navbar-nav li a {
-  color: #202020;
+  color: #ffffff;
   font-size: 13px;
   font-weight: bold;
   line-height: 45px;
@@ -143,6 +143,7 @@ hr {
 .progress-percent-small {
   display: block;
   float: right;
+  color: #fff;
   padding-right: 80px;
 }
 /* END RESUME */
@@ -219,7 +220,7 @@ background: url('resources/tempabout.jpg');
 }
 .form-control {
   background: transparent;
-  border: 1px solid #666;
+  border: 1px solid #fff;
   border-radius: 2px;
   -webkit-box-shadow: none;
           box-shadow: none;
